@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "module": "Node16",
+    "target": "ESNext",
+    "moduleResolution": "Node16",
+    "esModuleInterop": true,
+    "rootDir": "src",
+    "outDir": "build",
+    "skipLibCheck": true
+  },
+  "include": [
+    "./src/**/*.js",
+    "./src/**/*.ts",
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

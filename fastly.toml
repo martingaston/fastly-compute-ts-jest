@@ -1,0 +1,14 @@
+# This file describes a Fastly Compute package. To learn more visit:
+# https://developer.fastly.com/reference/fastly-toml/
+
+authors = ["mgaston@8thlight.com"]
+cloned_from = "https://github.com/fastly/compute-starter-kit-typescript"
+description = ""
+language = "javascript"
+manifest_version = 3
+name = "fastly-boop"
+service_id = ""
+
+[scripts]
+  build = "npm run build"
+  post_init = "npm install"
